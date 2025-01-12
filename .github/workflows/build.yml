@@ -252,7 +252,7 @@ jobs:
   
       - name: Upload iOS Artifact
         if: env.UPLOAD_ARTIFACT == 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4 
         with:
           name: iOS
           path: ./out
