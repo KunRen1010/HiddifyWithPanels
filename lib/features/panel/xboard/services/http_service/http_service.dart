@@ -9,7 +9,7 @@ class HttpService {
   static String baseUrl = 'https://xfltd.org'; // 替换为你的实际基础 URL
   // 初始化服务并设置动态域名
   static Future<void> initialize() async {
-    baseUrl = await DomainService.fetchValidDomain();
+    baseUrl = 'https://xfltd.org'; 
   }
 
   // 统一的 GET 请求方法
